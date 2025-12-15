@@ -65,7 +65,7 @@ Compare the AI-generated network against OpenStreetMap ground truth:
   - False negatives (orange) - OSM edges missed by Tile2Net
   - Precision, recall, and F1 score metrics
 
-	<img src="docs/OSM.png" alt="OSM Comparison" width="500" />
+  <img src="docs/OSM.png" alt="OSM Comparison" width="500" />
 
 - **Offset Arrows**
   - Arrows from OSM segment centroids to nearest Tile2Net edge
@@ -73,7 +73,7 @@ Compare the AI-generated network against OpenStreetMap ground truth:
   - Reveals systematic spatial bias and geometric misalignment
   - Histogram of offset distances
 
-	<img src="docs/Offset.png" alt="Offset Arrows" width="500" />
+  <img src="docs/Offset.png" alt="Offset Arrows" width="500" />
 
 - **Error Heat Map**
   - Divide region into configurable grid tiles
@@ -81,12 +81,14 @@ Compare the AI-generated network against OpenStreetMap ground truth:
   - Color intensity indicates error density
   - Quickly identify problem areas
 
-	<img src="docs/Heatmap.png" alt="Error Heatmap" width="500" />
+  <img src="docs/Heatmap.png" alt="Error Heatmap" width="500" />
 
 - **Error Gallery**
   - Rank tiles by total error count
   - Drill down into the worst tiles for focused inspection
   - Mini-maps showing detailed view of each problem area
+
+  <img src="docs/Gallery.png" alt="Error Gallery" width="500" />
  
 ### Walkthrough
 <a href="https://drive.google.com/file/d/17ztVPmXMG4MRgzt0w4az6sSm6hkJxJuD/preview">
