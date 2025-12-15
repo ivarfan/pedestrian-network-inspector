@@ -69,6 +69,9 @@ Compare the AI-generated network against OpenStreetMap ground truth:
   - Rank tiles by total error count
   - Drill down into the worst tiles for focused inspection
   - Mini-maps showing detailed view of each problem area
+ 
+### Walkthrough
+[![Watch the video]("docs/Top.png")](https://drive.google.com/file/d/17ztVPmXMG4MRgzt0w4az6sSm6hkJxJuD/preview)
 
 ## Installation
 
@@ -170,7 +173,8 @@ Ratio of actual path length to straight-line distance:
 <img src="docs/Heatmap.png" alt="Error Heatmap" width="500" />
 
 ### Walkthrough
-<iframe src="https://drive.google.com/file/d/17ztVPmXMG4MRgzt0w4az6sSm6hkJxJuD/preview" width="640" height="360"></iframe>
+<video src="[path/to/video.mp4](https://drive.google.com/file/d/17ztVPmXMG4MRgzt0w4az6sSm6hkJxJuD/preview)" width="640" height="360" controls></video>
+<video src="https://drive.google.com/file/d/17ztVPmXMG4MRgzt0w4az6sSm6hkJxJuD/preview" width="640" height="360"></video>
 
 ## API Usage
 
