@@ -151,16 +151,22 @@ Ratio of actual path length to straight-line distance:
 - **1.0** = Perfectly straight
 - **>1.5** = Flagged as anomaly
 
-## Screenshots
+## Selected Screenshots
 
-### Overview Dashboard
-![Overview](docs/overview.png)
+### Quality Overview Dashboard
+![Overview](docs/NQS.png)
 
-### Quality Issues Map
-![Quality Map](docs/quality_map.png)
+### Components Map
+![Components Map](docs/Small Components.png)
 
-### OSM Comparison
-![OSM Compare](docs/osm_compare.png)
+### Spurs and Loops
+![Spurs and Loops](docs/Spurs.png)
+
+### Offset Arrows
+![Offset Arrows](docs/Offset.png)
+
+### Error Heatmap
+![Error Heatmap](docs/Heatmap.png)
 
 ## API Usage
 
