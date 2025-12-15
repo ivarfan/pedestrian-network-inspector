@@ -97,7 +97,7 @@ The application will open in your browser at `http://localhost:8501`.
 ### Input Data
 
 **Upload a ZIP file** - Upload the output ZIP from tile2net containing network shapefiles.
-The Central Park (small and faster to run) and Chelsea (larger and slower to run) sample data zips are included.
+For sample files, you can use [Central Park](https://github.com/ivarfan/pedestrian-network-inspector/raw/refs/heads/main/sample%20data/centralpark.zip) (smaller and faster to run) or [Chelsea](https://github.com/ivarfan/pedestrian-network-inspector/raw/refs/heads/main/sample%20data/chelsea.zip) (larger and slower to run).
 
 ### Expected ZIP Structure
 
