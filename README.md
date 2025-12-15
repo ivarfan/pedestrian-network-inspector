@@ -9,6 +9,7 @@ A visualization tool for assessing the **topological and geometric quality** of 
 The application provides seven interactive views for comprehensive network analysis:
 
 ### Overview Dashboard
+<img src="docs/NQS.png" alt="Overview Dashboard" width="500" />
 - **Network Quality Score (NQS)** - A single 0-100 score combining F1, topology, and geometry subscores
 - **Key statistics** - Total edges, nodes, length, connected components, dead ends, intersections
 - **Issues summary** - Automatic detection of coverage gaps, false positives, component mismatches, and alignment problems
@@ -21,6 +22,7 @@ The application provides seven interactive views for comprehensive network analy
 - **Average clustering coefficient** - Measure of triangle formation in the network
 
 ### Network Map
+<img src="docs/Components.png" alt="Components Map" width="500" />
 - **Interactive Folium map** - Pan, zoom, and click to inspect network elements
 - **Component coloring** - Each connected component displayed in a distinct color
 - **Node degree visualization** - Option to size nodes proportionally to their degree
@@ -34,6 +36,7 @@ The application provides seven interactive views for comprehensive network analy
 - **Gap statistics** - Count and distance distribution of potential connection points
 
 ### Geometry Checks
+<img src="docs/Spurs.png" alt="Spurs and Loops" width="500" />
 - **Short edge detection** - Identify abnormally short segments that may indicate noise
 - **Long edge detection** - Find unusually long edges based on percentile thresholds
 - **Small loops** - Detect tiny cycles that may be artifacts
@@ -54,12 +57,14 @@ Compare the AI-generated network against OpenStreetMap ground truth:
   - Precision, recall, and F1 score metrics
 
 - **Offset Arrows**
+<img src="docs/Offset.png" alt="Offset Arrows" width="500" />
   - Arrows from OSM segment centroids to nearest Tile2Net edge
   - Color-coded by distance (green = good alignment, red = poor)
   - Reveals systematic spatial bias and geometric misalignment
   - Histogram of offset distances
 
 - **Error Heat Map**
+<img src="docs/Heatmap.png" alt="Error Heatmap" width="500" />
   - Divide region into configurable grid tiles
   - Count false positives, false negatives, dead-ends, and near-misses per tile
   - Color intensity indicates error density
@@ -156,23 +161,6 @@ Where `e` = edges, `n` = nodes.
 Ratio of actual path length to straight-line distance:
 - **1.0** = Perfectly straight
 - **>1.5** = Flagged as anomaly
-
-## Screenshots and Walkthrough
-
-### Quality Overview Dashboard
-<img src="docs/NQS.png" alt="Overview Dashboard" width="500" />
-
-### Components Map
-<img src="docs/Components.png" alt="Components Map" width="500" />
-
-### Spurs and Loops
-<img src="docs/Spurs.png" alt="Spurs and Loops" width="500" />
-
-### Offset Arrows
-<img src="docs/Offset.png" alt="Offset Arrows" width="500" />
-
-### Error Heatmap
-<img src="docs/Heatmap.png" alt="Error Heatmap" width="500" />
 
 ## API Usage
 
