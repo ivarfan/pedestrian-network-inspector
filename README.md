@@ -1,5 +1,7 @@
 # Pedestrian Network Quality Inspector
 
+![Cover Map](docs/Top.png)
+
 A visualization tool for assessing the **topological and geometric quality** of AI-generated pedestrian networks from [tile2net](https://github.com/VIDA-NYU/tile2net).
 
 ## Features
@@ -157,7 +159,7 @@ Ratio of actual path length to straight-line distance:
 ![Overview](docs/NQS.png)
 
 ### Components Map
-![Components Map](docs/Small Components.png)
+![Components Map](docs/Components.png)
 
 ### Spurs and Loops
 ![Spurs and Loops](docs/Spurs.png)
