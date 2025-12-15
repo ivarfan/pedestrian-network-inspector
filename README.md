@@ -22,6 +22,8 @@ The application provides seven interactive views for comprehensive network analy
 - **Betweenness centrality** - Distribution and ranking of most critical network nodes
 - **Average clustering coefficient** - Measure of triangle formation in the network
 
+<img src="docs/Degrees.png" alt="Degree Dashboard" width="500" />
+
 ### Network Map
 - **Interactive Folium map** - Pan, zoom, and click to inspect network elements
 - **Component coloring** - Each connected component displayed in a distinct color
