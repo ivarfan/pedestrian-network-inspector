@@ -44,14 +44,10 @@ The application provides seven interactive views for comprehensive network analy
 - **Small loops** - Detect tiny cycles that may be artifacts
 - **Short spurs** - Find short dead-end branches
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="width: 300px; margin-right: 10px;">
-    <img src="docs/Angles.png" alt="Angles" style="width: 100%; height: auto;"/>
-  </div>
-  <div style="width: 300px; margin-left: 10px;">
-    <img src="docs/Spurs.png" alt="Spurs and Loops" style="width: 100%; height: auto;"/>
-  </div>
-</div>
+<p>
+    <img src="docs/Angles.png" width="300" alt="Angles Map"/>
+    <img src="docs/Spurs.png" width="300" alt="Spurs and Loops"/>
+</p>
 
 ### Edge Analysis
 - **Edge length distribution** - Histogram of segment lengths in meters
