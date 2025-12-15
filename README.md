@@ -30,19 +30,27 @@ The application provides seven interactive views for comprehensive network analy
 - **Layer controls** - Toggle visibility of edges, nodes, dead-ends, and intersections
 
 ### Gap Diagnostics
+<img src="docs/Gaps.png" alt="Gaps Map" width="500" />
 - **Dead-end detection** - Find and visualize all degree-1 nodes
 - **Near-miss endpoints** - Detect pairs of dead-ends that are close but not connected (potential gaps)
 - **Missing link visualization** - Show dashed lines between near-miss pairs
 - **Gap statistics** - Count and distance distribution of potential connection points
 
 ### Geometry Checks
-<img src="docs/Spurs.png" alt="Spurs and Loops" width="500" />
-- **Short edge detection** - Identify abnormally short segments that may indicate noise
-- **Long edge detection** - Find unusually long edges based on percentile thresholds
+<div style="display: flex; justify-content: space-between;">
+  <div style="width: 300px; margin-right: 10px;">
+    <img src="docs/Angles.png" alt="Angles" style="width: 100%; height: auto;"/>
+  </div>
+  <div style="width: 300px; margin-left: 10px;">
+    <img src="docs/Spurs.png" alt="Spurs and Loops" style="width: 100%; height: auto;"/>
+  </div>
+</div>
+- **Angle Analysis** - Find angles with extreme degrees
 - **Small loops** - Detect tiny cycles that may be artifacts
 - **Short spurs** - Find short dead-end branches
 
 ### Edge Analysis
+<img src="docs/Edges.png" alt="Extreme edges" width="500" />
 - **Edge length distribution** - Histogram of segment lengths in meters
 - **Length categorization** - Color-coded map showing very short, normal, and very long edges
 - **Percentile statistics** - Min, max, mean, median, and percentile breakdowns
@@ -51,6 +59,7 @@ The application provides seven interactive views for comprehensive network analy
 Compare the AI-generated network against OpenStreetMap ground truth:
 
 - **Comparison Map**
+<img src="docs/OSM.png" alt="OSM Comparison" width="500" />
   - True positives (blue/green) - Edges that match between networks
   - False positives (red) - Tile2Net edges not in OSM
   - False negatives (orange) - OSM edges missed by Tile2Net
