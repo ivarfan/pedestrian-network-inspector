@@ -92,7 +92,7 @@ Compare the AI-generated network against OpenStreetMap ground truth:
 
   <img src="docs/Gallery.png" alt="Error Gallery" width="500" />
  
-### Walkthrough
+## Walkthrough
 <a href="https://drive.google.com/file/d/17ztVPmXMG4MRgzt0w4az6sSm6hkJxJuD/preview">
   <img src="docs/Walkthrough.png" width="500" alt="Watch demo" />
 </a>
