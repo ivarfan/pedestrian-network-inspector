@@ -71,7 +71,9 @@ Compare the AI-generated network against OpenStreetMap ground truth:
   - Mini-maps showing detailed view of each problem area
  
 ### Walkthrough
-[![Watch the video](docs/Walkthrough.png)](https://drive.google.com/file/d/17ztVPmXMG4MRgzt0w4az6sSm6hkJxJuD/preview)
+<a href="https://drive.google.com/file/d/17ztVPmXMG4MRgzt0w4az6sSm6hkJxJuD/preview">
+  <img src="docs/Walkthrough.png" width="500" alt="Watch demo" />
+</a>
 
 ## Installation
 
