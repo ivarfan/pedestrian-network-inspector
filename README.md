@@ -152,7 +152,7 @@ Ratio of actual path length to straight-line distance:
 - **1.0** = Perfectly straight
 - **>1.5** = Flagged as anomaly
 
-## Selected Screenshots
+## Screenshots and Walkthrough
 
 ### Quality Overview Dashboard
 <img src="docs/NQS.png" alt="Overview Dashboard" width="500" />
@@ -168,6 +168,9 @@ Ratio of actual path length to straight-line distance:
 
 ### Error Heatmap
 <img src="docs/Heatmap.png" alt="Error Heatmap" width="500" />
+
+### Walkthrough
+<iframe src="https://drive.google.com/file/d/17ztVPmXMG4MRgzt0w4az6sSm6hkJxJuD/preview" width="640" height="360"></iframe>
 
 ## API Usage
 
