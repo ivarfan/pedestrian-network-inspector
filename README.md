@@ -170,6 +170,7 @@ Ratio of actual path length to straight-line distance:
 <img src="docs/Heatmap.png" alt="Error Heatmap" width="500" />
 
 ### Walkthrough
+<video src="[path/to/video.mp4](https://drive.google.com/file/d/17ztVPmXMG4MRgzt0w4az6sSm6hkJxJuD/preview)" width="640" height="360" controls></video>
 <video src="https://drive.google.com/file/d/17ztVPmXMG4MRgzt0w4az6sSm6hkJxJuD/preview" width="640" height="360"></video>
 
 ## API Usage
