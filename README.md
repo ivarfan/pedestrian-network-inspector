@@ -96,9 +96,8 @@ The application will open in your browser at `http://localhost:8501`.
 
 ### Input Data
 
-You can either:
-1. **Upload a ZIP file** - Upload the output ZIP from tile2net containing network shapefiles
-2. **Use sample data** - The Central Park sample data is included for demonstration
+**Upload a ZIP file** - Upload the output ZIP from tile2net containing network shapefiles.
+The Central Park (small and faster to run) and Chelsea (larger and slower to run) sample data zips are included.
 
 ### Expected ZIP Structure
 
