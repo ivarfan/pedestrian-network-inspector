@@ -1,6 +1,6 @@
 # Pedestrian Network Quality Inspector
 
-![Cover Map](docs/Top.png)
+<img src="docs/Top.png" alt="Doc cover" width="500" />
 
 A visualization tool for assessing the **topological and geometric quality** of AI-generated pedestrian networks from [tile2net](https://github.com/VIDA-NYU/tile2net).
 
@@ -156,19 +156,19 @@ Ratio of actual path length to straight-line distance:
 ## Selected Screenshots
 
 ### Quality Overview Dashboard
-![Overview](docs/NQS.png)
+<img src="docs/NQS.png" alt="Overview Dashboard" width="500" />
 
 ### Components Map
-![Components Map](docs/Components.png)
+<img src="docs/Components.png" alt="Components Map" width="500" />
 
 ### Spurs and Loops
-![Spurs and Loops](docs/Spurs.png)
+<img src="docs/Spurs.png" alt="Spurs and Loops" width="500" />
 
 ### Offset Arrows
-![Offset Arrows](docs/Offset.png)
+<img src="docs/Offset.png" alt="Offset Arrows" width="500" />
 
 ### Error Heatmap
-![Error Heatmap](docs/Heatmap.png)
+<img src="docs/Heatmap.png" alt="Error Heatmap" width="500" />
 
 ## API Usage
 
