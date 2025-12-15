@@ -9,11 +9,12 @@ A visualization tool for assessing the **topological and geometric quality** of 
 The application provides seven interactive views for comprehensive network analysis:
 
 ### Overview Dashboard
-<img src="docs/NQS.png" alt="Overview Dashboard" width="500" />
 - **Network Quality Score (NQS)** - A single 0-100 score combining F1, topology, and geometry subscores
 - **Key statistics** - Total edges, nodes, length, connected components, dead ends, intersections
 - **Issues summary** - Automatic detection of coverage gaps, false positives, component mismatches, and alignment problems
 - **Score breakdown** - Detailed explanation of how each subscore is computed
+
+<img src="docs/NQS.png" alt="Overview Dashboard" width="500" />
 
 ### Graph Metrics
 - **Node degree distribution** - Histogram showing dead-ends (degree 1), normal nodes (degree 2), and intersections (degree 3+)
@@ -22,21 +23,27 @@ The application provides seven interactive views for comprehensive network analy
 - **Average clustering coefficient** - Measure of triangle formation in the network
 
 ### Network Map
-<img src="docs/Components.png" alt="Components Map" width="500" />
 - **Interactive Folium map** - Pan, zoom, and click to inspect network elements
 - **Component coloring** - Each connected component displayed in a distinct color
 - **Node degree visualization** - Option to size nodes proportionally to their degree
 - **Component filtering** - Filter out large components to focus on small isolated subgraphs
 - **Layer controls** - Toggle visibility of edges, nodes, dead-ends, and intersections
 
+<img src="docs/Components.png" alt="Components Map" width="500" />
+
 ### Gap Diagnostics
-<img src="docs/Gaps.png" alt="Gaps Map" width="500" />
 - **Dead-end detection** - Find and visualize all degree-1 nodes
 - **Near-miss endpoints** - Detect pairs of dead-ends that are close but not connected (potential gaps)
 - **Missing link visualization** - Show dashed lines between near-miss pairs
 - **Gap statistics** - Count and distance distribution of potential connection points
 
+<img src="docs/Gaps.png" alt="Gaps Map" width="500" />
+
 ### Geometry Checks
+- **Angle Analysis** - Find angles with extreme degrees
+- **Small loops** - Detect tiny cycles that may be artifacts
+- **Short spurs** - Find short dead-end branches
+
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 300px; margin-right: 10px;">
     <img src="docs/Angles.png" alt="Angles" style="width: 100%; height: auto;"/>
@@ -45,39 +52,40 @@ The application provides seven interactive views for comprehensive network analy
     <img src="docs/Spurs.png" alt="Spurs and Loops" style="width: 100%; height: auto;"/>
   </div>
 </div>
-- **Angle Analysis** - Find angles with extreme degrees
-- **Small loops** - Detect tiny cycles that may be artifacts
-- **Short spurs** - Find short dead-end branches
 
 ### Edge Analysis
-<img src="docs/Edges.png" alt="Extreme edges" width="500" />
 - **Edge length distribution** - Histogram of segment lengths in meters
 - **Length categorization** - Color-coded map showing very short, normal, and very long edges
 - **Percentile statistics** - Min, max, mean, median, and percentile breakdowns
+
+<img src="docs/Edges.png" alt="Extreme edges" width="500" />
 
 ### OSM Comparison
 Compare the AI-generated network against OpenStreetMap ground truth:
 
 - **Comparison Map**
-<img src="docs/OSM.png" alt="OSM Comparison" width="500" />
   - True positives (blue/green) - Edges that match between networks
   - False positives (red) - Tile2Net edges not in OSM
   - False negatives (orange) - OSM edges missed by Tile2Net
   - Precision, recall, and F1 score metrics
 
+	<img src="docs/OSM.png" alt="OSM Comparison" width="500" />
+
 - **Offset Arrows**
-<img src="docs/Offset.png" alt="Offset Arrows" width="500" />
   - Arrows from OSM segment centroids to nearest Tile2Net edge
   - Color-coded by distance (green = good alignment, red = poor)
   - Reveals systematic spatial bias and geometric misalignment
   - Histogram of offset distances
 
+	<img src="docs/Offset.png" alt="Offset Arrows" width="500" />
+
 - **Error Heat Map**
-<img src="docs/Heatmap.png" alt="Error Heatmap" width="500" />
   - Divide region into configurable grid tiles
   - Count false positives, false negatives, dead-ends, and near-misses per tile
   - Color intensity indicates error density
   - Quickly identify problem areas
+
+	<img src="docs/Heatmap.png" alt="Error Heatmap" width="500" />
 
 - **Error Gallery**
   - Rank tiles by total error count
