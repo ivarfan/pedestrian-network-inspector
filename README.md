@@ -69,6 +69,9 @@ Compare the AI-generated network against OpenStreetMap ground truth:
   - Rank tiles by total error count
   - Drill down into the worst tiles for focused inspection
   - Mini-maps showing detailed view of each problem area
+ 
+### Walkthrough
+[![Watch the video]("docs/Top.png")](https://drive.google.com/file/d/17ztVPmXMG4MRgzt0w4az6sSm6hkJxJuD/preview)
 
 ## Installation
 
