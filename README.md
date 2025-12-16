@@ -174,11 +174,6 @@ The NQS is a weighted combination of three subscores:
 
 Where `e` = edges, `n` = nodes.
 
-### Sinuosity
-Ratio of actual path length to straight-line distance:
-- **1.0** = Perfectly straight
-- **>1.5** = Flagged as anomaly
-
 ## API Usage
 
 You can also use the analysis modules programmatically:
